@@ -1,0 +1,76 @@
+.navbar {
+  z-index: 999;
+  position: fixed;
+  display: flex;
+  padding: 0 12.5rem 0 12.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+
+  background-color: rgb(20, 20, 20);
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 3.75rem;
+}
+
+.iterative {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+}
+
+.flag {
+  height: 1.5625rem;
+  cursor: pointer;
+}
+
+.topics {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 4.5rem;
+  list-style: none;
+  height: 3rem;
+  vertical-align: middle;
+}
+
+.topics li {
+  display: grid;
+  align-items: center;
+}
+
+.topics a {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.topics a:hover {
+  padding-bottom: 0.3rem;
+  transition-duration: 0.20s;
+  transition-delay: 0.10s;
+  color: #E1E1E1;
+}
+
+.topics a:focus {
+  padding-bottom: 0.3rem;
+  color: #51ff00;
+}
+
+.topics a:focus .underline {
+  display: grid;
+}
+
+.underline {
+  display: none;
+  height: 0.2rem;
+  width: 100%;
+  background-color: #51ff00;
+  border-radius: 0.15rem;
+}

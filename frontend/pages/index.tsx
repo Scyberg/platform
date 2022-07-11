@@ -1,7 +1,17 @@
-const IndexPage = () => (
-  <>
-    <h1>Hello Next.js 👋</h1>
-  </>
-)
+import Head from 'next/head';
+import Navbar from '../src/components/Navbar';
+import BuildingIdeas from '../src/screen/BuildingIdeas';
 
-export default IndexPage
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Scyberg</title>
+      </Head>
+      
+      <Navbar />
+      
+      <BuildingIdeas />
+    </>
+  )
+}
