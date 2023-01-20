@@ -1,0 +1,11 @@
+.section {
+  display: flex;
+  height: 95vh;
+  background: linear-gradient(180deg, #FF4D00 0%, #D52600 100%);
+  margin-bottom: -6.25vw;
+}
+
+.divider {
+  display: flex;
+  align-items: flex-end
+}

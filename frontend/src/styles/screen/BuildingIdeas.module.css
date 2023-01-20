@@ -1,5 +1,6 @@
 .section {
-  height: 180vh;
+  display: flex;
+  height: 100vh;
 }
 
 .section a {
@@ -7,42 +8,33 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  height: 2.5rem;
-  width: 12.5rem;
-  font-size: 1.5rem;
+  height: 2.085vw;
+  width: 10.415vw;
+  font-size: 1.25vw;
   cursor: pointer;
   box-shadow: 0 0 0.125rem 0 rgba(0, 0, 0, 0.25);
-}
-
-.banner {
-  height: 95vh;
-  background-image: url("/building-ideas.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  height: 100%;
   justify-content: center;
   align-items: center;
-  background-color: rgba(10, 10, 10, 0.55);
+  width: 50%;
 }
 
 .buttons {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 1.5rem;
-  height: 2.5rem;
-  gap: 2.5rem;
+  margin-top: 1.45vw;
+  height: 2.1vw;
+  gap: 2.1vw;
   width: 100%;
 }
 
 .buttons a {
-  border-radius: 1.875rem;
+  border-radius: 1.5625vw;
 }
 
 .embark {
@@ -53,52 +45,9 @@
   background: linear-gradient(#590EB6, #760EB6);
 }
 
-.catalog {
-  height: 90vh;
-  background-color: #141414;
-}
-
-.container {
-  top: -12.5vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0.25rem;
-  position: relative;
-  height: 25vh;
-  width: 40vw;
-  background: linear-gradient(#00E1B9, #00E13F);
-  border-radius: 1.25rem;
-  box-shadow: 0 0 0.125rem 0 rgba(0, 0, 0, 0.25);
-}
-
-.action {
+.animation {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding: 2rem 0 2rem 0;
-  height: 100%;
-  text-align: center;
   align-items: center;
-  background: #101010;
-  border-radius: 1.25rem;
-}
-
-.action span {
-  margin-bottom: 1rem;
-}
-
-.portfolio {
-  margin-top: 0.5rem;
-  background: linear-gradient(#E18C1E, #FF4402);
-  border-radius: 1.875rem 0.125rem 1.875rem 0.125rem;
-  box-shadow: 0 0 0.125rem 0 rgba(0, 0, 0, 0.25);
-}
-
-.description {
-  height: 65vh;
-  padding: 0 6.25rem 0 6.25rem;
-}
-
-.description h2 {
-  margin-bottom: 2.5rem;
+  width: 50%;
 }

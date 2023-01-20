@@ -42,7 +42,12 @@ export default class MyDocument extends Document {
           />
 
           <link
-            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&family=Lexend+Deca&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500&display=swap"
+            rel="stylesheet"
+          />
+
+          <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap"
             rel="stylesheet"
           />
         </Head>
