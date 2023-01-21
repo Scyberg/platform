@@ -14,14 +14,14 @@ function StandOutMarket() {
 
       <section className={LocalStyles.section}>
         <div className={LocalStyles.content}>
-          <h2>Destaque-se no Mercado</h2>
+          <h2>Destaque-se no mercado</h2>
 
           <span>
             Hoje (como nunca antes) uma marca de sucesso<br />
             deve possuir uma presença forte na internet para<br />
             ser mais competitiva.
 
-            <br /><br />
+            <br /><br /><br />
 
             Não basta apenas usar tecnologia, mas também<br />
             entender que as soluções devem ser: sólidas, ágeis,<br />

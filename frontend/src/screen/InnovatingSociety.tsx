@@ -10,7 +10,26 @@ function InnovatingSociety() {
       </div>
 
       <section className={LocalStyles.section}>
-        
+        <div className={LocalStyles.content}>
+          <h2>Inovando a sociedade</h2>
+
+          <span>
+            Quem nunca teve aquela idéia incrível? A Inovação<br />
+            anda em conjunto com a evolução da sociedade, a<br />
+            <b>Scyberg</b> busca por inovação constante,<br />
+            solucionando problemas e influênciando a realidade<br />
+            ao nosso redor.
+
+            <br /><br /><br />
+
+            Temos como meta, deixar nossa marca no mundo.<br />
+            Embarque nessa jornada conosco!
+          </span>
+        </div>
+
+        <div className={LocalStyles.animation}>
+
+        </div>
       </section>
     </>
   );

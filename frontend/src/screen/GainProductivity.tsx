@@ -10,7 +10,26 @@ function GainProductivity() {
       </div>
 
       <section className={LocalStyles.section}>
-        
+        <div className={LocalStyles.animation}>
+
+        </div>
+
+        <div className={LocalStyles.content}>
+          <h2>Ganhe produtividade</h2>
+
+          <span>
+            Não há dúvidas, a tecnologia pode se tornar sua<br />
+            maior aliada! Aumentando sua produtividade,<br />
+            automatizando tarefas cansativas, lhe avisando<br />
+            sobre algum evento e muito mais! A <b>Scyberg</b> pode<br />
+            lhe ajudar nisso!
+
+            <br /><br /><br />
+
+            Poupando assim, um recurso extremamente<br />
+            precioso, o seu tempo!
+          </span>
+        </div>
       </section>
     </>
   );

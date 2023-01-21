@@ -31,8 +31,9 @@ export default createGlobalStyle`
   }
 
   span {
-    font-size: 1.04vw;
+    font-size: 1.05vw;
     font-weight: 400;
+    letter-spacing: 0.06vw;
   }
 
   span b {

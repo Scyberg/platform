@@ -5,6 +5,28 @@
   margin-bottom: -6.25vw;
 }
 
+.section h2 {
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  gap: 3.54vw;
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .divider {
   display: flex;
   align-items: flex-end

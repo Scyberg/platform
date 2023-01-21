@@ -10,6 +10,13 @@
   font-weight: 700;
 }
 
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .content {
   display: flex;
   flex-direction: column;
@@ -17,13 +24,7 @@
   align-items: center;
   text-align: center;
   width: 50%;
-}
-
-.animation {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
+  gap: 3.54vw;
 }
 
 .divider {
