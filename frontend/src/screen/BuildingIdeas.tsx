@@ -1,11 +1,11 @@
 import LocalStyles from '../styles/screen/BuildingIdeas.module.css';
 import { Player } from '@lottiefiles/react-lottie-player';
-import Banner from '../components/Banner';
+import Background from '../components/Background';
 
 function BuildingIdeas() {
   return (
     <section className={LocalStyles.section}>
-      <Banner />
+      <Background />
 
       <div className={LocalStyles.content}>
         <h3>Influênciando a realidade ao nosso redor</h3>
