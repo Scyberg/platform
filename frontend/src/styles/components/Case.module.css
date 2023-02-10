@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  gap: 3.54vw;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.divider {
+  display: flex;
+  align-items: flex-end
+}

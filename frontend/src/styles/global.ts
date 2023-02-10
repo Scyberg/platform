@@ -7,44 +7,45 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     color: ${theme.colors.fonts.main};
-    font-family: 'Baloo 2', cursive;
+    font-family: 'Lexend Deca', sans-serif;
   }
 
   h1 {
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2.5vw;
+    font-weight: 400;
   }
 
   h2 {
-    font-size: 2.875rem;
-    font-weight: 500;
+    font-size: 2.395vw;
+    font-weight: 400;
   }
 
   h2 b {
     color: #00FFD1;
-    font-weight: 500;
+    font-weight: 400;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.65vw;
     font-weight: 400;
   }
 
   span {
-    font-size: 1.25rem;
+    font-size: 1.05vw;
     font-weight: 400;
+    letter-spacing: 0.06vw;
   }
 
   span b {
-    font-weight: 500;
-  }
-
-  p {
-    font-size: 1.875rem;
     font-weight: 400;
   }
 
+  p {
+    font-size: 1.5625vw;
+    font-weight: 300;
+  }
+
   p b {
-    font-weight: 500;
+    font-weight: 400;
   }
 `;

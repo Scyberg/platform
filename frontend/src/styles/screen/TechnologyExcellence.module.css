@@ -1,0 +1,21 @@
+.section {
+  display: flex;
+  height: 100vh;
+  gap: 5vw;
+  padding: 0 5vw 0 5vw;
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3vw;
+  width: 50%;
+}
